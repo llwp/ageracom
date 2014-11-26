@@ -1,0 +1,202 @@
+<?php
+/**
+ * @file
+ * EntityReference plus module.
+ */
+
+/**
+ * Implements hook_views_api()
+ */
+function entityreference_plus_views_api() {
+  return array(
+    'api' => '3.0',
+    'path' => drupal_get_path('module', 'entityreference_plus') . '/views',
+  );
+}
+
+/**
+ * Implements hook_ctools_plugin_directory().
+ */
+function entityreference_plus_ctools_plugin_directory($module, $plugin) {
+  if ($module == 'entityreference') {
+    return 'plugins/' . $plugin;
+  }
+}
+
+/**
+ * Implements hook_field_widget_info().
+ */
+function entityreference_plus_field_widget_info() {
+  $widgets = array();
+  $widgets['entityreference_plus_limit'] = array(
+    'label' => t('Entity reference: With limited selection'),
+    'field types' => array('entityreference'),
+    'settings' => array(
+      'fields' => array(),
+      'type_settings' => array(),
+      'use_ajax' => 0,
+    ),
+  );
+
+  return $widgets;
+}
+
+/**
+ * Implements hook_field_widget_form().
+ */
+function entityreference_plus_field_widget_form(&$form, &$form_state, $field, $instance, $langcode, $items, $delta, $element) {
+  $widget = $instance['widget']['type'];
+  $entity_type = $field['settings']['target_type'];
+
+  if ($widget == 'entityreference_plus_limit') {
+    $info = entity_get_info($entity_type);
+
+    $entity_id = isset($items[$delta]['target_id']) ? $items[$delta]['target_id'] : '';
+    $default_value = $entity_id;
+    $condition = array($info['entity keys']['id'] => array('operator' => 'IN', 'value' => $field['settings']['handler_settings']['allow_values']));
+    $options = entity_reference_plus_options($entity_type, $condition);
+
+    $element += array(
+      '#type' => 'select',
+      '#options' => $options,
+      '#default_value' => $default_value,
+      '#empty_value' => '',
+      '#required' => $instance['required'],
+    );
+
+    return array('target_id' => $element);
+  }
+}
+
+/**
+ * Implements hook_widget_form_alter().
+ */
+function entityreference_plus_field_widget_form_alter(&$element, &$form_state, $context) {
+  $field = $context['field'];
+  $field_name = $field['field_name'];
+  $instance = $context['instance'];
+
+  if ($field['type'] == 'entityreference' && $instance['widget']['type'] == 'entityreference_plus_limit') {
+    $element += array(
+      '#element_id' => $field_name,
+    );
+    if (!empty($instance['widget']['settings']['use_ajax'])) {
+      $element['target_id']['#ajax'] = array(
+        'callback' => 'entityreference_plus_select_ajax_callback',
+      );
+    }
+
+    if (isset($element['#options']['_none'])) {
+      unset($element['#options']['_none']);
+    }
+  }
+}
+
+/**
+ * Form ajax callback.
+ */
+function entityreference_plus_select_ajax_callback($form, &$form_state) {
+  return $form;
+}
+
+/**
+ * Form for ajax preprocess field entity reference plus.
+ */
+function entityreference_plus_ajax_process($element, &$form_state, $form) {
+  $element['#ajax']['wrapper'] = $form['#id'];
+  return $element;
+}
+
+/**
+ * Load all entity for build options entity reference.
+ */
+function entityreference_plus_get_entities($entity_type, $bundles) {
+  $entities = array();
+  $entity_info = entity_get_info($entity_type);
+  $bundle = array_values($bundles);
+
+  $conditions = array(
+    $entity_info['entity keys']['bundle'] => array('operator' => 'IN', 'value' => $bundle),
+  );
+  $entities = _entity_reference_load_base_info($entity_type, $conditions);
+  return $entities;
+}
+
+/**
+ * @TODO document here.
+ */
+function entityreference_plus_form_field_ui_field_edit_form_alter(&$form, &$form_state, $form_id) {
+  $field = $form['#field'];
+  $instance = $form['#instance'];
+  $settings = $instance['widget']['settings'];
+  if ($field['type'] == 'entityreference') {
+    if ($instance['widget']['type'] == 'entityreference_plus_limit' || $instance['widget']['type'] == 'options_select') {
+      $form['instance']['widget']['settings']['use_ajax'] = array(
+        '#type' => 'checkbox',
+        '#title' => t('Use ajax'),
+        '#description' => t('Form will rebuild via ajax callback'),
+        '#default_value' => isset($instance['widget']['settings']['use_ajax']) ? $instance['widget']['settings']['use_ajax'] : FALSE,
+      );
+    }
+  }
+}
+
+/**
+ * alter form field_ui_field_edit_form.
+ */
+function entityreference_plus_form_alter(&$form, &$form_state, $form_id) {
+  if ($form_id == 'field_ui_field_edit_form') {
+    $field = $form['field'];
+    $instance = $form['#instance'];
+
+    if ($instance['widget']['type'] == 'entityreference_plus') {
+      $entity_type = $field['settings']['#field']['settings']['target_type'];
+      $entity = entity_get_info($entity_type);
+      $options = array('*' => t('All'));
+      foreach ($entity['bundles'] as $bundle => $data) {
+        $options[$bundle] = $data['label'];
+      }
+    }
+  }
+}
+
+/**
+ * Get options for limit entity.
+ * Only get data from base table.
+ */
+function _entity_reference_load_base_info($entity_type, $conditions, $reset = FALSE) {
+  /// only get data from base table.
+  $info = entity_get_info($entity_type);
+  if (empty($info)) {
+    return array();
+  }
+  /// don't need cache here because only using when config data.
+  // build conditions.
+  $query = db_select($info['base table'], 'base')
+            ->fields('base', array($info['entity keys']['id'], $info['entity keys']['label']));
+  foreach ($conditions as $key => $value) {
+    if (is_array($value)) {
+      $query->condition($key, $value['value'], $value['operator']);
+    }
+    else {
+      $query->condition($key, $value);
+    }
+  }
+  $result = $query->execute()->fetchAll();
+  return $result;
+}
+
+/**
+ * Get data from base table and build $options.
+ * For performance we do not working.
+ */
+function entity_reference_plus_options($entity_type, $conditions = array()) {
+  $info = entity_get_info($entity_type);
+  $result = _entity_reference_load_base_info($entity_type, $conditions);
+  $options = array();
+  foreach ($result as $value) {
+    $options[$value->{$info['entity keys']['id']}] = $value->{$info['entity keys']['label']};
+  }
+
+  return $options;
+}

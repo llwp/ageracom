@@ -1,0 +1,8 @@
+.field-type-entityreference .entityrefence-plus {
+  display: block;
+  margin-bottom: 5px;
+}
+.field-type-entityreference  .entityrefence-plus .entityrefence-plus-field-input {
+  float: left;
+  margin-right: 5px;
+}

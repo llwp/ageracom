@@ -1,0 +1,17 @@
+name = EntityReference Plus
+description = This module extends EntityReference's widget.
+core = 7.x
+package = Fields
+dependencies[] = entity
+dependencies[] = ctools
+dependencies[] = entityreference
+
+files[] = views/entityreference_plus.views.inc
+files[] = views/handlers/views_entityreference_plus_field_handler_filter_in_operator.inc
+
+; Information added by drupal.org packaging script on 2013-10-14
+version = "7.x-1.0"
+core = "7.x"
+project = "entityreference_plus"
+datestamp = "1381728003"
+
