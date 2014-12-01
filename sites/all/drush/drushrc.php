@@ -2,6 +2,10 @@
 
 
 $options['sites'] = array (
+<<<<<<< HEAD
+=======
+  0 => '20141128.ageracom.agera.ssny.us',
+>>>>>>> origin/master
 );
 $options['profiles'] = array (
   0 => 'standard',
@@ -14,7 +18,11 @@ $options['packages'] = array (
     array (
       'filter' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/modules/filter/filter.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/modules/filter/filter.module',
+>>>>>>> origin/master
         'basename' => 'filter.module',
         'name' => 'filter',
         'info' => 
@@ -43,7 +51,11 @@ $options['packages'] = array (
       ),
       'search' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/modules/search/search.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/modules/search/search.module',
+>>>>>>> origin/master
         'basename' => 'search.module',
         'name' => 'search',
         'info' => 
@@ -79,7 +91,11 @@ $options['packages'] = array (
       ),
       'path' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/modules/path/path.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/modules/path/path.module',
+>>>>>>> origin/master
         'basename' => 'path.module',
         'name' => 'path',
         'info' => 
@@ -107,7 +123,11 @@ $options['packages'] = array (
       ),
       'contact' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/modules/contact/contact.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/modules/contact/contact.module',
+>>>>>>> origin/master
         'basename' => 'contact.module',
         'name' => 'contact',
         'info' => 
@@ -135,7 +155,11 @@ $options['packages'] = array (
       ),
       'image' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/modules/image/image.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/modules/image/image.module',
+>>>>>>> origin/master
         'basename' => 'image.module',
         'name' => 'image',
         'info' => 
@@ -164,7 +188,11 @@ $options['packages'] = array (
       ),
       'taxonomy' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/modules/taxonomy/taxonomy.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/modules/taxonomy/taxonomy.module',
+>>>>>>> origin/master
         'basename' => 'taxonomy.module',
         'name' => 'taxonomy',
         'info' => 
@@ -194,7 +222,11 @@ $options['packages'] = array (
       ),
       'node' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/modules/node/node.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/modules/node/node.module',
+>>>>>>> origin/master
         'basename' => 'node.module',
         'name' => 'node',
         'info' => 
@@ -231,7 +263,11 @@ $options['packages'] = array (
       ),
       'toolbar' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/modules/toolbar/toolbar.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/modules/toolbar/toolbar.module',
+>>>>>>> origin/master
         'basename' => 'toolbar.module',
         'name' => 'toolbar',
         'info' => 
@@ -254,7 +290,11 @@ $options['packages'] = array (
       ),
       'dashboard' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/modules/dashboard/dashboard.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/modules/dashboard/dashboard.module',
+>>>>>>> origin/master
         'basename' => 'dashboard.module',
         'name' => 'dashboard',
         'info' => 
@@ -283,7 +323,11 @@ $options['packages'] = array (
       ),
       'poll' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/modules/poll/poll.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/modules/poll/poll.module',
+>>>>>>> origin/master
         'basename' => 'poll.module',
         'name' => 'poll',
         'info' => 
@@ -317,7 +361,11 @@ $options['packages'] = array (
       ),
       'rdf' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/modules/rdf/rdf.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/modules/rdf/rdf.module',
+>>>>>>> origin/master
         'basename' => 'rdf.module',
         'name' => 'rdf',
         'info' => 
@@ -344,7 +392,11 @@ $options['packages'] = array (
       ),
       'contextual' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/modules/contextual/contextual.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/modules/contextual/contextual.module',
+>>>>>>> origin/master
         'basename' => 'contextual.module',
         'name' => 'contextual',
         'info' => 
@@ -371,7 +423,11 @@ $options['packages'] = array (
       ),
       'shortcut' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/modules/shortcut/shortcut.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/modules/shortcut/shortcut.module',
+>>>>>>> origin/master
         'basename' => 'shortcut.module',
         'name' => 'shortcut',
         'info' => 
@@ -399,7 +455,11 @@ $options['packages'] = array (
       ),
       'block' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/modules/block/block.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/modules/block/block.module',
+>>>>>>> origin/master
         'basename' => 'block.module',
         'name' => 'block',
         'info' => 
@@ -427,7 +487,11 @@ $options['packages'] = array (
       ),
       'php' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/modules/php/php.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/modules/php/php.module',
+>>>>>>> origin/master
         'basename' => 'php.module',
         'name' => 'php',
         'info' => 
@@ -454,7 +518,11 @@ $options['packages'] = array (
       ),
       'field_ui' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/modules/field_ui/field_ui.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/modules/field_ui/field_ui.module',
+>>>>>>> origin/master
         'basename' => 'field_ui.module',
         'name' => 'field_ui',
         'info' => 
@@ -482,7 +550,11 @@ $options['packages'] = array (
       ),
       'book' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/modules/book/book.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/modules/book/book.module',
+>>>>>>> origin/master
         'basename' => 'book.module',
         'name' => 'book',
         'info' => 
@@ -517,7 +589,11 @@ $options['packages'] = array (
       ),
       'locale' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/modules/locale/locale.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/modules/locale/locale.module',
+>>>>>>> origin/master
         'basename' => 'locale.module',
         'name' => 'locale',
         'info' => 
@@ -545,7 +621,11 @@ $options['packages'] = array (
       ),
       'menu' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/modules/menu/menu.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/modules/menu/menu.module',
+>>>>>>> origin/master
         'basename' => 'menu.module',
         'name' => 'menu',
         'info' => 
@@ -573,7 +653,11 @@ $options['packages'] = array (
       ),
       'blog' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/modules/blog/blog.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/modules/blog/blog.module',
+>>>>>>> origin/master
         'basename' => 'blog.module',
         'name' => 'blog',
         'info' => 
@@ -600,7 +684,11 @@ $options['packages'] = array (
       ),
       'dblog' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/modules/dblog/dblog.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/modules/dblog/dblog.module',
+>>>>>>> origin/master
         'basename' => 'dblog.module',
         'name' => 'dblog',
         'info' => 
@@ -627,7 +715,11 @@ $options['packages'] = array (
       ),
       'overlay' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/modules/overlay/overlay.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/modules/overlay/overlay.module',
+>>>>>>> origin/master
         'basename' => 'overlay.module',
         'name' => 'overlay',
         'info' => 
@@ -650,7 +742,11 @@ $options['packages'] = array (
       ),
       'statistics' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/modules/statistics/statistics.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/modules/statistics/statistics.module',
+>>>>>>> origin/master
         'basename' => 'statistics.module',
         'name' => 'statistics',
         'info' => 
@@ -678,7 +774,11 @@ $options['packages'] = array (
       ),
       'translation' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/modules/translation/translation.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/modules/translation/translation.module',
+>>>>>>> origin/master
         'basename' => 'translation.module',
         'name' => 'translation',
         'info' => 
@@ -706,7 +806,11 @@ $options['packages'] = array (
       ),
       'file' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/modules/file/file.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/modules/file/file.module',
+>>>>>>> origin/master
         'basename' => 'file.module',
         'name' => 'file',
         'info' => 
@@ -734,7 +838,11 @@ $options['packages'] = array (
       ),
       'forum' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/modules/forum/forum.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/modules/forum/forum.module',
+>>>>>>> origin/master
         'basename' => 'forum.module',
         'name' => 'forum',
         'info' => 
@@ -771,7 +879,11 @@ $options['packages'] = array (
       ),
       'help' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/modules/help/help.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/modules/help/help.module',
+>>>>>>> origin/master
         'basename' => 'help.module',
         'name' => 'help',
         'info' => 
@@ -798,7 +910,11 @@ $options['packages'] = array (
       ),
       'comment' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/modules/comment/comment.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/modules/comment/comment.module',
+>>>>>>> origin/master
         'basename' => 'comment.module',
         'name' => 'comment',
         'info' => 
@@ -835,7 +951,11 @@ $options['packages'] = array (
       ),
       'openid' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/modules/openid/openid.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/modules/openid/openid.module',
+>>>>>>> origin/master
         'basename' => 'openid.module',
         'name' => 'openid',
         'info' => 
@@ -862,7 +982,11 @@ $options['packages'] = array (
       ),
       'trigger' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/modules/trigger/trigger.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/modules/trigger/trigger.module',
+>>>>>>> origin/master
         'basename' => 'trigger.module',
         'name' => 'trigger',
         'info' => 
@@ -890,7 +1014,11 @@ $options['packages'] = array (
       ),
       'aggregator' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/modules/aggregator/aggregator.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/modules/aggregator/aggregator.module',
+>>>>>>> origin/master
         'basename' => 'aggregator.module',
         'name' => 'aggregator',
         'info' => 
@@ -925,7 +1053,11 @@ $options['packages'] = array (
       ),
       'color' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/modules/color/color.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/modules/color/color.module',
+>>>>>>> origin/master
         'basename' => 'color.module',
         'name' => 'color',
         'info' => 
@@ -952,7 +1084,11 @@ $options['packages'] = array (
       ),
       'list' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/modules/field/modules/list/list.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/modules/field/modules/list/list.module',
+>>>>>>> origin/master
         'basename' => 'list.module',
         'name' => 'list',
         'info' => 
@@ -981,7 +1117,11 @@ $options['packages'] = array (
       ),
       'text' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/modules/field/modules/text/text.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/modules/field/modules/text/text.module',
+>>>>>>> origin/master
         'basename' => 'text.module',
         'name' => 'text',
         'info' => 
@@ -1010,7 +1150,11 @@ $options['packages'] = array (
       ),
       'options' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/modules/field/modules/options/options.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/modules/field/modules/options/options.module',
+>>>>>>> origin/master
         'basename' => 'options.module',
         'name' => 'options',
         'info' => 
@@ -1038,7 +1182,11 @@ $options['packages'] = array (
       ),
       'number' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/modules/field/modules/number/number.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/modules/field/modules/number/number.module',
+>>>>>>> origin/master
         'basename' => 'number.module',
         'name' => 'number',
         'info' => 
@@ -1066,7 +1214,11 @@ $options['packages'] = array (
       ),
       'field_sql_storage' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/modules/field/modules/field_sql_storage/field_sql_storage.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/modules/field/modules/field_sql_storage/field_sql_storage.module',
+>>>>>>> origin/master
         'basename' => 'field_sql_storage.module',
         'name' => 'field_sql_storage',
         'info' => 
@@ -1095,7 +1247,11 @@ $options['packages'] = array (
       ),
       'field' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/modules/field/field.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/modules/field/field.module',
+>>>>>>> origin/master
         'basename' => 'field.module',
         'name' => 'field',
         'info' => 
@@ -1134,7 +1290,11 @@ $options['packages'] = array (
       ),
       'update' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/modules/update/update.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/modules/update/update.module',
+>>>>>>> origin/master
         'basename' => 'update.module',
         'name' => 'update',
         'info' => 
@@ -1162,7 +1322,11 @@ $options['packages'] = array (
       ),
       'syslog' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/modules/syslog/syslog.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/modules/syslog/syslog.module',
+>>>>>>> origin/master
         'basename' => 'syslog.module',
         'name' => 'syslog',
         'info' => 
@@ -1190,7 +1354,11 @@ $options['packages'] = array (
       ),
       'tracker' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/modules/tracker/tracker.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/modules/tracker/tracker.module',
+>>>>>>> origin/master
         'basename' => 'tracker.module',
         'name' => 'tracker',
         'info' => 
@@ -1218,7 +1386,11 @@ $options['packages'] = array (
       ),
       'user' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/modules/user/user.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/modules/user/user.module',
+>>>>>>> origin/master
         'basename' => 'user.module',
         'name' => 'user',
         'info' => 
@@ -1255,7 +1427,11 @@ $options['packages'] = array (
       ),
       'system' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/modules/system/system.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/modules/system/system.module',
+>>>>>>> origin/master
         'basename' => 'system.module',
         'name' => 'system',
         'info' => 
@@ -1289,7 +1465,11 @@ $options['packages'] = array (
       ),
       'simpletest' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/modules/simpletest/simpletest.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/modules/simpletest/simpletest.module',
+>>>>>>> origin/master
         'basename' => 'simpletest.module',
         'name' => 'simpletest',
         'info' => 
@@ -1368,7 +1548,11 @@ $options['packages'] = array (
     array (
       'stark' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/themes/stark/stark.info',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/themes/stark/stark.info',
+>>>>>>> origin/master
         'basename' => 'stark.info',
         'name' => 'Stark',
         'info' => 
@@ -1393,7 +1577,11 @@ $options['packages'] = array (
       ),
       'bartik' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/themes/bartik/bartik.info',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/themes/bartik/bartik.info',
+>>>>>>> origin/master
         'basename' => 'bartik.info',
         'name' => 'Bartik',
         'info' => 
@@ -1448,7 +1636,11 @@ $options['packages'] = array (
       ),
       'seven' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/themes/seven/seven.info',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/themes/seven/seven.info',
+>>>>>>> origin/master
         'basename' => 'seven.info',
         'name' => 'Seven',
         'info' => 
@@ -1490,7 +1682,11 @@ $options['packages'] = array (
       ),
       'garland' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/themes/garland/garland.info',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/themes/garland/garland.info',
+>>>>>>> origin/master
         'basename' => 'garland.info',
         'name' => 'Garland',
         'info' => 
@@ -1536,7 +1732,11 @@ $options['packages'] = array (
       'standard' => 
       array (
         'name' => 'standard',
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/profiles/standard/standard.profile',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/profiles/standard/standard.profile',
+>>>>>>> origin/master
         'project' => 'drupal',
         'info' => 
         array (
@@ -1582,7 +1782,11 @@ $options['packages'] = array (
       'minimal' => 
       array (
         'name' => 'minimal',
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/profiles/minimal/minimal.profile',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/profiles/minimal/minimal.profile',
+>>>>>>> origin/master
         'project' => 'drupal',
         'info' => 
         array (
@@ -1613,7 +1817,11 @@ $options['packages'] = array (
     array (
       'token' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/token/token.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/token/token.module',
+>>>>>>> origin/master
         'basename' => 'token.module',
         'name' => 'token',
         'info' => 
@@ -1639,7 +1847,11 @@ $options['packages'] = array (
       ),
       'wsclient_soap' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/wsclient/wsclient_soap/wsclient_soap.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/wsclient/wsclient_soap/wsclient_soap.module',
+>>>>>>> origin/master
         'basename' => 'wsclient_soap.module',
         'name' => 'wsclient_soap',
         'info' => 
@@ -1667,7 +1879,11 @@ $options['packages'] = array (
       ),
       'wsclient_examples' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/wsclient/wsclient_examples/wsclient_examples.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/wsclient/wsclient_examples/wsclient_examples.module',
+>>>>>>> origin/master
         'basename' => 'wsclient_examples.module',
         'name' => 'wsclient_examples',
         'info' => 
@@ -1696,7 +1912,11 @@ $options['packages'] = array (
       ),
       'wsclient_tester' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/wsclient/wsclient_tester/wsclient_tester.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/wsclient/wsclient_tester/wsclient_tester.module',
+>>>>>>> origin/master
         'basename' => 'wsclient_tester.module',
         'name' => 'wsclient_tester',
         'info' => 
@@ -1720,7 +1940,11 @@ $options['packages'] = array (
       ),
       'wsclient_ui' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/wsclient/wsclient_ui/wsclient_ui.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/wsclient/wsclient_ui/wsclient_ui.module',
+>>>>>>> origin/master
         'basename' => 'wsclient_ui.module',
         'name' => 'wsclient_ui',
         'info' => 
@@ -1750,7 +1974,11 @@ $options['packages'] = array (
       ),
       'wsclient_rest' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/wsclient/wsclient_rest/wsclient_rest.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/wsclient/wsclient_rest/wsclient_rest.module',
+>>>>>>> origin/master
         'basename' => 'wsclient_rest.module',
         'name' => 'wsclient_rest',
         'info' => 
@@ -1779,7 +2007,11 @@ $options['packages'] = array (
       ),
       'wsclient' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/wsclient/wsclient.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/wsclient/wsclient.module',
+>>>>>>> origin/master
         'basename' => 'wsclient.module',
         'name' => 'wsclient',
         'info' => 
@@ -1808,7 +2040,11 @@ $options['packages'] = array (
       ),
       'hybridauth_ulogin' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/hybridauth/hybridauth_ulogin/hybridauth_ulogin.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/hybridauth/hybridauth_ulogin/hybridauth_ulogin.module',
+>>>>>>> origin/master
         'basename' => 'hybridauth_ulogin.module',
         'name' => 'hybridauth_ulogin',
         'info' => 
@@ -1833,7 +2069,11 @@ $options['packages'] = array (
       ),
       'hybridauth_bonus' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/hybridauth/hybridauth_bonus/hybridauth_bonus.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/hybridauth/hybridauth_bonus/hybridauth_bonus.module',
+>>>>>>> origin/master
         'basename' => 'hybridauth_bonus.module',
         'name' => 'hybridauth_bonus',
         'info' => 
@@ -1858,7 +2098,11 @@ $options['packages'] = array (
       ),
       'hybridauth' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/hybridauth/hybridauth.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/hybridauth/hybridauth.module',
+>>>>>>> origin/master
         'basename' => 'hybridauth.module',
         'name' => 'hybridauth',
         'info' => 
@@ -1883,7 +2127,11 @@ $options['packages'] = array (
       ),
       'features' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/features/features.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/features/features.module',
+>>>>>>> origin/master
         'basename' => 'features.module',
         'name' => 'features',
         'info' => 
@@ -1911,7 +2159,11 @@ $options['packages'] = array (
       ),
       'webform_conditional' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/webform_conditional/webform_conditional.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/webform_conditional/webform_conditional.module',
+>>>>>>> origin/master
         'basename' => 'webform_conditional.module',
         'name' => 'webform_conditional',
         'info' => 
@@ -1940,7 +2192,11 @@ $options['packages'] = array (
       ),
       'redirect' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/redirect/redirect.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/redirect/redirect.module',
+>>>>>>> origin/master
         'basename' => 'redirect.module',
         'name' => 'redirect',
         'info' => 
@@ -1977,7 +2233,11 @@ $options['packages'] = array (
       ),
       'entitycache' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/entitycache/entitycache.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/entitycache/entitycache.module',
+>>>>>>> origin/master
         'basename' => 'entitycache.module',
         'name' => 'entitycache',
         'info' => 
@@ -2007,7 +2267,11 @@ $options['packages'] = array (
       ),
       'taxonomy_manager' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/taxonomy_manager/taxonomy_manager.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/taxonomy_manager/taxonomy_manager.module',
+>>>>>>> origin/master
         'basename' => 'taxonomy_manager.module',
         'name' => 'taxonomy_manager',
         'info' => 
@@ -2036,7 +2300,11 @@ $options['packages'] = array (
       ),
       'recaptcha_mailhide' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/recaptcha/recaptcha_mailhide.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/recaptcha/recaptcha_mailhide.module',
+>>>>>>> origin/master
         'basename' => 'recaptcha_mailhide.module',
         'name' => 'recaptcha_mailhide',
         'info' => 
@@ -2063,7 +2331,11 @@ $options['packages'] = array (
       ),
       'recaptcha' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/recaptcha/recaptcha.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/recaptcha/recaptcha.module',
+>>>>>>> origin/master
         'basename' => 'recaptcha.module',
         'name' => 'recaptcha',
         'info' => 
@@ -2094,7 +2366,11 @@ $options['packages'] = array (
       ),
       'googleanalytics' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/google_analytics/googleanalytics.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/google_analytics/googleanalytics.module',
+>>>>>>> origin/master
         'basename' => 'googleanalytics.module',
         'name' => 'googleanalytics',
         'info' => 
@@ -2126,7 +2402,11 @@ $options['packages'] = array (
       ),
       'admin_views' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/admin_views/admin_views.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/admin_views/admin_views.module',
+>>>>>>> origin/master
         'basename' => 'admin_views.module',
         'name' => 'admin_views',
         'info' => 
@@ -2157,7 +2437,11 @@ $options['packages'] = array (
       ),
       'om_maps' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/om_maps/om_maps.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/om_maps/om_maps.module',
+>>>>>>> origin/master
         'basename' => 'om_maps.module',
         'name' => 'om_maps',
         'info' => 
@@ -2188,7 +2472,11 @@ $options['packages'] = array (
       ),
       'aes' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/aes/aes.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/aes/aes.module',
+>>>>>>> origin/master
         'basename' => 'aes.module',
         'name' => 'aes',
         'info' => 
@@ -2216,7 +2504,11 @@ $options['packages'] = array (
       ),
       'jquery_update' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/jquery_update/jquery_update.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/jquery_update/jquery_update.module',
+>>>>>>> origin/master
         'basename' => 'jquery_update.module',
         'name' => 'jquery_update',
         'info' => 
@@ -2245,7 +2537,11 @@ $options['packages'] = array (
       ),
       'image_captcha' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/captcha/image_captcha/image_captcha.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/captcha/image_captcha/image_captcha.module',
+>>>>>>> origin/master
         'basename' => 'image_captcha.module',
         'name' => 'image_captcha',
         'info' => 
@@ -2277,7 +2573,11 @@ $options['packages'] = array (
       ),
       'captcha' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/captcha/captcha.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/captcha/captcha.module',
+>>>>>>> origin/master
         'basename' => 'captcha.module',
         'name' => 'captcha',
         'info' => 
@@ -2309,7 +2609,11 @@ $options['packages'] = array (
       ),
       'globalredirect' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/globalredirect/globalredirect.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/globalredirect/globalredirect.module',
+>>>>>>> origin/master
         'basename' => 'globalredirect.module',
         'name' => 'globalredirect',
         'info' => 
@@ -2337,7 +2641,11 @@ $options['packages'] = array (
       ),
       'disable_messages' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/disable_messages/disable_messages.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/disable_messages/disable_messages.module',
+>>>>>>> origin/master
         'basename' => 'disable_messages.module',
         'name' => 'disable_messages',
         'info' => 
@@ -2364,7 +2672,11 @@ $options['packages'] = array (
       ),
       'better_formats' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/better_formats/better_formats.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/better_formats/better_formats.module',
+>>>>>>> origin/master
         'basename' => 'better_formats.module',
         'name' => 'better_formats',
         'info' => 
@@ -2387,7 +2699,11 @@ $options['packages'] = array (
       ),
       'imce_wysiwyg' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/imce_wysiwyg/imce_wysiwyg.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/imce_wysiwyg/imce_wysiwyg.module',
+>>>>>>> origin/master
         'basename' => 'imce_wysiwyg.module',
         'name' => 'imce_wysiwyg',
         'info' => 
@@ -2412,7 +2728,11 @@ $options['packages'] = array (
       ),
       'honeypot' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/honeypot/honeypot.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/honeypot/honeypot.module',
+>>>>>>> origin/master
         'basename' => 'honeypot.module',
         'name' => 'honeypot',
         'info' => 
@@ -2440,7 +2760,11 @@ $options['packages'] = array (
       ),
       'views_bulk_operations' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/views_bulk_operations/views_bulk_operations.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/views_bulk_operations/views_bulk_operations.module',
+>>>>>>> origin/master
         'basename' => 'views_bulk_operations.module',
         'name' => 'views_bulk_operations',
         'info' => 
@@ -2470,7 +2794,11 @@ $options['packages'] = array (
       ),
       'actions_permissions' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/views_bulk_operations/actions_permissions.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/views_bulk_operations/actions_permissions.module',
+>>>>>>> origin/master
         'basename' => 'actions_permissions.module',
         'name' => 'actions_permissions',
         'info' => 
@@ -2493,7 +2821,11 @@ $options['packages'] = array (
       ),
       'om_maximenu' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/om_maximenu/om_maximenu.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/om_maximenu/om_maximenu.module',
+>>>>>>> origin/master
         'basename' => 'om_maximenu.module',
         'name' => 'om_maximenu',
         'info' => 
@@ -2535,7 +2867,11 @@ $options['packages'] = array (
       ),
       'panels_mini' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/panels/panels_mini/panels_mini.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/panels/panels_mini/panels_mini.module',
+>>>>>>> origin/master
         'basename' => 'panels_mini.module',
         'name' => 'panels_mini',
         'info' => 
@@ -2563,7 +2899,11 @@ $options['packages'] = array (
       ),
       'i18n_panels' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/panels/i18n_panels/i18n_panels.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/panels/i18n_panels/i18n_panels.module',
+>>>>>>> origin/master
         'basename' => 'i18n_panels.module',
         'name' => 'i18n_panels',
         'info' => 
@@ -2590,7 +2930,11 @@ $options['packages'] = array (
       ),
       'panels_node' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/panels/panels_node/panels_node.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/panels/panels_node/panels_node.module',
+>>>>>>> origin/master
         'basename' => 'panels_node.module',
         'name' => 'panels_node',
         'info' => 
@@ -2619,7 +2963,11 @@ $options['packages'] = array (
       ),
       'panels_ipe' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/panels/panels_ipe/panels_ipe.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/panels/panels_ipe/panels_ipe.module',
+>>>>>>> origin/master
         'basename' => 'panels_ipe.module',
         'name' => 'panels_ipe',
         'info' => 
@@ -2648,7 +2996,11 @@ $options['packages'] = array (
       ),
       'panels' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/panels/panels.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/panels/panels.module',
+>>>>>>> origin/master
         'basename' => 'panels.module',
         'name' => 'panels',
         'info' => 
@@ -2681,7 +3033,11 @@ $options['packages'] = array (
       ),
       'feed_import_base' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/feed_import/feed_import_base/feed_import_base.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/feed_import/feed_import_base/feed_import_base.module',
+>>>>>>> origin/master
         'basename' => 'feed_import_base.module',
         'name' => 'feed_import_base',
         'info' => 
@@ -2712,7 +3068,11 @@ $options['packages'] = array (
       ),
       'feed_import' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/feed_import/feed_import.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/feed_import/feed_import.module',
+>>>>>>> origin/master
         'basename' => 'feed_import.module',
         'name' => 'feed_import',
         'info' => 
@@ -2737,7 +3097,11 @@ $options['packages'] = array (
       ),
       'entity_rules' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/entity_rules/entity_rules.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/entity_rules/entity_rules.module',
+>>>>>>> origin/master
         'basename' => 'entity_rules.module',
         'name' => 'entity_rules',
         'info' => 
@@ -2761,7 +3125,11 @@ $options['packages'] = array (
       ),
       'chosen' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/chosen/chosen.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/chosen/chosen.module',
+>>>>>>> origin/master
         'basename' => 'chosen.module',
         'name' => 'chosen',
         'info' => 
@@ -2785,7 +3153,11 @@ $options['packages'] = array (
       ),
       'eck_services' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/eck/modules/eck_services/eck_services.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/eck/modules/eck_services/eck_services.module',
+>>>>>>> origin/master
         'basename' => 'eck_services.module',
         'name' => 'eck_services',
         'info' => 
@@ -2810,7 +3182,11 @@ $options['packages'] = array (
       ),
       'eck_entitycache' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/eck/modules/eck_entitycache/eck_entitycache.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/eck/modules/eck_entitycache/eck_entitycache.module',
+>>>>>>> origin/master
         'basename' => 'eck_entitycache.module',
         'name' => 'eck_entitycache',
         'info' => 
@@ -2835,7 +3211,11 @@ $options['packages'] = array (
       ),
       'eck_example' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/eck/examples/eck_example.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/eck/examples/eck_example.module',
+>>>>>>> origin/master
         'basename' => 'eck_example.module',
         'name' => 'eck_example',
         'info' => 
@@ -2859,7 +3239,11 @@ $options['packages'] = array (
       ),
       'eck' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/eck/eck.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/eck/eck.module',
+>>>>>>> origin/master
         'basename' => 'eck.module',
         'name' => 'eck',
         'info' => 
@@ -2892,7 +3276,11 @@ $options['packages'] = array (
       ),
       'views_distinct' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/views_distinct/views_distinct.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/views_distinct/views_distinct.module',
+>>>>>>> origin/master
         'basename' => 'views_distinct.module',
         'name' => 'views_distinct',
         'info' => 
@@ -2916,7 +3304,11 @@ $options['packages'] = array (
       ),
       'entityreference_plus' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/entityreference_plus/entityreference_plus.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/entityreference_plus/entityreference_plus.module',
+>>>>>>> origin/master
         'basename' => 'entityreference_plus.module',
         'name' => 'entityreference_plus',
         'info' => 
@@ -2947,7 +3339,11 @@ $options['packages'] = array (
       ),
       'peekaboo' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/peekaboo/peekaboo.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/peekaboo/peekaboo.module',
+>>>>>>> origin/master
         'basename' => 'peekaboo.module',
         'name' => 'peekaboo',
         'info' => 
@@ -2970,7 +3366,11 @@ $options['packages'] = array (
       ),
       'search_api_views' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/search_api/contrib/search_api_views/search_api_views.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/search_api/contrib/search_api_views/search_api_views.module',
+>>>>>>> origin/master
         'basename' => 'search_api_views.module',
         'name' => 'search_api_views',
         'info' => 
@@ -3018,7 +3418,11 @@ $options['packages'] = array (
       ),
       'search_api_facetapi' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/search_api/contrib/search_api_facetapi/search_api_facetapi.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/search_api/contrib/search_api_facetapi/search_api_facetapi.module',
+>>>>>>> origin/master
         'basename' => 'search_api_facetapi.module',
         'name' => 'search_api_facetapi',
         'info' => 
@@ -3049,7 +3453,11 @@ $options['packages'] = array (
       ),
       'search_api' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/search_api/search_api.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/search_api/search_api.module',
+>>>>>>> origin/master
         'basename' => 'search_api.module',
         'name' => 'search_api',
         'info' => 
@@ -3104,7 +3512,11 @@ $options['packages'] = array (
       ),
       'views_arg_parent_term' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/views_arg_parent_term/views_arg_parent_term.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/views_arg_parent_term/views_arg_parent_term.module',
+>>>>>>> origin/master
         'basename' => 'views_arg_parent_term.module',
         'name' => 'views_arg_parent_term',
         'info' => 
@@ -3133,7 +3545,11 @@ $options['packages'] = array (
       ),
       'dhtml_menu' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/dhtml_menu/dhtml_menu.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/dhtml_menu/dhtml_menu.module',
+>>>>>>> origin/master
         'basename' => 'dhtml_menu.module',
         'name' => 'dhtml_menu',
         'info' => 
@@ -3162,7 +3578,11 @@ $options['packages'] = array (
       ),
       'entity2text' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/entity2text/entity2text.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/entity2text/entity2text.module',
+>>>>>>> origin/master
         'basename' => 'entity2text.module',
         'name' => 'entity2text',
         'info' => 
@@ -3187,7 +3607,11 @@ $options['packages'] = array (
       ),
       'session_api' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/session_api/session_api.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/session_api/session_api.module',
+>>>>>>> origin/master
         'basename' => 'session_api.module',
         'name' => 'session_api',
         'info' => 
@@ -3217,7 +3641,11 @@ $options['packages'] = array (
       ),
       'views_export' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/views/views_export/views_export.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/views/views_export/views_export.module',
+>>>>>>> origin/master
         'basename' => 'views_export.module',
         'name' => 'views_export',
         'info' => 
@@ -3235,7 +3663,11 @@ $options['packages'] = array (
       ),
       'views_ui' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/views/views_ui.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/views/views_ui.module',
+>>>>>>> origin/master
         'basename' => 'views_ui.module',
         'name' => 'views_ui',
         'info' => 
@@ -3265,7 +3697,11 @@ $options['packages'] = array (
       ),
       'views' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/views/views.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/views/views.module',
+>>>>>>> origin/master
         'basename' => 'views.module',
         'name' => 'views',
         'info' => 
@@ -3601,7 +4037,11 @@ $options['packages'] = array (
       ),
       'entity' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/entity/entity.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/entity/entity.module',
+>>>>>>> origin/master
         'basename' => 'entity.module',
         'name' => 'entity',
         'info' => 
@@ -3650,7 +4090,11 @@ $options['packages'] = array (
       ),
       'entity_token' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/entity/entity_token.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/entity/entity_token.module',
+>>>>>>> origin/master
         'basename' => 'entity_token.module',
         'name' => 'entity_token',
         'info' => 
@@ -3678,7 +4122,11 @@ $options['packages'] = array (
       ),
       'ds_extras' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/ds/modules/ds_extras/ds_extras.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/ds/modules/ds_extras/ds_extras.module',
+>>>>>>> origin/master
         'basename' => 'ds_extras.module',
         'name' => 'ds_extras',
         'info' => 
@@ -3703,7 +4151,11 @@ $options['packages'] = array (
       ),
       'ds_forms' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/ds/modules/ds_forms/ds_forms.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/ds/modules/ds_forms/ds_forms.module',
+>>>>>>> origin/master
         'basename' => 'ds_forms.module',
         'name' => 'ds_forms',
         'info' => 
@@ -3727,7 +4179,11 @@ $options['packages'] = array (
       ),
       'ds_devel' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/ds/modules/ds_devel/ds_devel.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/ds/modules/ds_devel/ds_devel.module',
+>>>>>>> origin/master
         'basename' => 'ds_devel.module',
         'name' => 'ds_devel',
         'info' => 
@@ -3752,7 +4208,11 @@ $options['packages'] = array (
       ),
       'ds_search' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/ds/modules/ds_search/ds_search.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/ds/modules/ds_search/ds_search.module',
+>>>>>>> origin/master
         'basename' => 'ds_search.module',
         'name' => 'ds_search',
         'info' => 
@@ -3777,7 +4237,11 @@ $options['packages'] = array (
       ),
       'ds_format' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/ds/modules/ds_format/ds_format.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/ds/modules/ds_format/ds_format.module',
+>>>>>>> origin/master
         'basename' => 'ds_format.module',
         'name' => 'ds_format',
         'info' => 
@@ -3802,7 +4266,11 @@ $options['packages'] = array (
       ),
       'ds_ui' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/ds/modules/ds_ui/ds_ui.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/ds/modules/ds_ui/ds_ui.module',
+>>>>>>> origin/master
         'basename' => 'ds_ui.module',
         'name' => 'ds_ui',
         'info' => 
@@ -3826,7 +4294,11 @@ $options['packages'] = array (
       ),
       'ds' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/ds/ds.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/ds/ds.module',
+>>>>>>> origin/master
         'basename' => 'ds.module',
         'name' => 'ds',
         'info' => 
@@ -3862,7 +4334,11 @@ $options['packages'] = array (
       ),
       'rules_scheduler' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/rules/rules_scheduler/rules_scheduler.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/rules/rules_scheduler/rules_scheduler.module',
+>>>>>>> origin/master
         'basename' => 'rules_scheduler.module',
         'name' => 'rules_scheduler',
         'info' => 
@@ -3898,7 +4374,11 @@ $options['packages'] = array (
       ),
       'rules_i18n' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/rules/rules_i18n/rules_i18n.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/rules/rules_i18n/rules_i18n.module',
+>>>>>>> origin/master
         'basename' => 'rules_i18n.module',
         'name' => 'rules_i18n',
         'info' => 
@@ -3929,7 +4409,11 @@ $options['packages'] = array (
       ),
       'rules_admin' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/rules/rules_admin/rules_admin.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/rules/rules_admin/rules_admin.module',
+>>>>>>> origin/master
         'basename' => 'rules_admin.module',
         'name' => 'rules_admin',
         'info' => 
@@ -3958,7 +4442,11 @@ $options['packages'] = array (
       ),
       'rules' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/rules/rules.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/rules/rules.module',
+>>>>>>> origin/master
         'basename' => 'rules.module',
         'name' => 'rules',
         'info' => 
@@ -4003,7 +4491,11 @@ $options['packages'] = array (
       ),
       'user_reference' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/references/user_reference/user_reference.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/references/user_reference/user_reference.module',
+>>>>>>> origin/master
         'basename' => 'user_reference.module',
         'name' => 'user_reference',
         'info' => 
@@ -4029,7 +4521,11 @@ $options['packages'] = array (
       ),
       'node_reference' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/references/node_reference/node_reference.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/references/node_reference/node_reference.module',
+>>>>>>> origin/master
         'basename' => 'node_reference.module',
         'name' => 'node_reference',
         'info' => 
@@ -4059,7 +4555,11 @@ $options['packages'] = array (
       ),
       'references' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/references/references.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/references/references.module',
+>>>>>>> origin/master
         'basename' => 'references.module',
         'name' => 'references',
         'info' => 
@@ -4092,7 +4592,11 @@ $options['packages'] = array (
       ),
       'webform' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/webform/webform.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/webform/webform.module',
+>>>>>>> origin/master
         'basename' => 'webform.module',
         'name' => 'webform',
         'info' => 
@@ -4146,9 +4650,43 @@ $options['packages'] = array (
         'project' => 'webform',
         'version' => '7.x-4.1',
       ),
+      'schema' => 
+      array (
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/schema/schema.module',
+        'basename' => 'schema.module',
+        'name' => 'schema',
+        'info' => 
+        array (
+          'name' => 'Schema',
+          'description' => 'The Schema module provides functionality built on the Schema API.',
+          'package' => 'Database',
+          'core' => '7.x',
+          'configure' => 'admin/structure/schema/settings',
+          'files' => 
+          array (
+            0 => 'engines/mysql.inc',
+            1 => 'engines/pgsql.inc',
+            2 => 'tests/schema_regression.test',
+          ),
+          'version' => '7.x-1.2',
+          'project' => 'schema',
+          'datestamp' => '1395608058',
+          'dependencies' => 
+          array (
+          ),
+          'php' => '5.2.4',
+        ),
+        'schema_version' => '7100',
+        'project' => 'schema',
+        'version' => '7.x-1.2',
+      ),
       'clone' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/node_clone/clone.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/node_clone/clone.module',
+>>>>>>> origin/master
         'basename' => 'clone.module',
         'name' => 'clone',
         'info' => 
@@ -4175,7 +4713,11 @@ $options['packages'] = array (
       ),
       'entityform_notifications' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/entityform/entityform_notifications/entityform_notifications.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/entityform/entityform_notifications/entityform_notifications.module',
+>>>>>>> origin/master
         'basename' => 'entityform_notifications.module',
         'name' => 'entityform_notifications',
         'info' => 
@@ -4202,7 +4744,11 @@ $options['packages'] = array (
       ),
       'entityform_test' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/entityform/entityform_test/entityform_test.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/entityform/entityform_test/entityform_test.module',
+>>>>>>> origin/master
         'basename' => 'entityform_test.module',
         'name' => 'entityform_test',
         'info' => 
@@ -4245,7 +4791,11 @@ $options['packages'] = array (
       ),
       'entityform_anonymous' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/entityform/entityform_anonymous/entityform_anonymous.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/entityform/entityform_anonymous/entityform_anonymous.module',
+>>>>>>> origin/master
         'basename' => 'entityform_anonymous.module',
         'name' => 'entityform_anonymous',
         'info' => 
@@ -4270,7 +4820,11 @@ $options['packages'] = array (
       ),
       'entityform' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/entityform/entityform.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/entityform/entityform.module',
+>>>>>>> origin/master
         'basename' => 'entityform.module',
         'name' => 'entityform',
         'info' => 
@@ -4311,7 +4865,11 @@ $options['packages'] = array (
       ),
       'masquerade' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/masquerade/masquerade.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/masquerade/masquerade.module',
+>>>>>>> origin/master
         'basename' => 'masquerade.module',
         'name' => 'masquerade',
         'info' => 
@@ -4338,7 +4896,11 @@ $options['packages'] = array (
       ),
       'imce' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/imce/imce.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/imce/imce.module',
+>>>>>>> origin/master
         'basename' => 'imce.module',
         'name' => 'imce',
         'info' => 
@@ -4362,7 +4924,11 @@ $options['packages'] = array (
       ),
       'synonyms' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/synonyms/synonyms.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/synonyms/synonyms.module',
+>>>>>>> origin/master
         'basename' => 'synonyms.module',
         'name' => 'synonyms',
         'info' => 
@@ -4397,7 +4963,11 @@ $options['packages'] = array (
       ),
       'pathauto' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/pathauto/pathauto.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/pathauto/pathauto.module',
+>>>>>>> origin/master
         'basename' => 'pathauto.module',
         'name' => 'pathauto',
         'info' => 
@@ -4430,7 +5000,11 @@ $options['packages'] = array (
       ),
       'entityreference_behavior_example' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/entityreference/examples/entityreference_behavior_example/entityreference_behavior_example.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/entityreference/examples/entityreference_behavior_example/entityreference_behavior_example.module',
+>>>>>>> origin/master
         'basename' => 'entityreference_behavior_example.module',
         'name' => 'entityreference_behavior_example',
         'info' => 
@@ -4454,7 +5028,11 @@ $options['packages'] = array (
       ),
       'entityreference' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/entityreference/entityreference.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/entityreference/entityreference.module',
+>>>>>>> origin/master
         'basename' => 'entityreference.module',
         'name' => 'entityreference',
         'info' => 
@@ -4493,7 +5071,11 @@ $options['packages'] = array (
       ),
       'entityreference_filter' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/entityreference_filter/entityreference_filter.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/entityreference_filter/entityreference_filter.module',
+>>>>>>> origin/master
         'basename' => 'entityreference_filter.module',
         'name' => 'entityreference_filter',
         'info' => 
@@ -4522,7 +5104,11 @@ $options['packages'] = array (
       ),
       'multiple_email' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/multiple_email/multiple_email.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/multiple_email/multiple_email.module',
+>>>>>>> origin/master
         'basename' => 'multiple_email.module',
         'name' => 'multiple_email',
         'info' => 
@@ -4549,7 +5135,11 @@ $options['packages'] = array (
       ),
       'jammer_generic' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/jammer/jammer_generic.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/jammer/jammer_generic.module',
+>>>>>>> origin/master
         'basename' => 'jammer_generic.module',
         'name' => 'jammer_generic',
         'info' => 
@@ -4576,7 +5166,11 @@ $options['packages'] = array (
       ),
       'jammer' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/jammer/jammer.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/jammer/jammer.module',
+>>>>>>> origin/master
         'basename' => 'jammer.module',
         'name' => 'jammer',
         'info' => 
@@ -4605,7 +5199,11 @@ $options['packages'] = array (
       ),
       'jammer_messages' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/jammer/jammer_messages.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/jammer/jammer_messages.module',
+>>>>>>> origin/master
         'basename' => 'jammer_messages.module',
         'name' => 'jammer_messages',
         'info' => 
@@ -4633,7 +5231,11 @@ $options['packages'] = array (
       ),
       'jammer_feed' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/jammer/jammer_feed.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/jammer/jammer_feed.module',
+>>>>>>> origin/master
         'basename' => 'jammer_feed.module',
         'name' => 'jammer_feed',
         'info' => 
@@ -4660,7 +5262,11 @@ $options['packages'] = array (
       ),
       'jammer_feed_icon' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/jammer/jammer_feed_icon.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/jammer/jammer_feed_icon.module',
+>>>>>>> origin/master
         'basename' => 'jammer_feed_icon.module',
         'name' => 'jammer_feed_icon',
         'info' => 
@@ -4687,7 +5293,11 @@ $options['packages'] = array (
       ),
       'taxonomy_csv' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/taxonomy_csv/taxonomy_csv.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/taxonomy_csv/taxonomy_csv.module',
+>>>>>>> origin/master
         'basename' => 'taxonomy_csv.module',
         'name' => 'taxonomy_csv',
         'info' => 
@@ -4727,7 +5337,11 @@ $options['packages'] = array (
       ),
       'hs_flatlist' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/hierarchical_select/modules/hs_flatlist.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/hierarchical_select/modules/hs_flatlist.module',
+>>>>>>> origin/master
         'basename' => 'hs_flatlist.module',
         'name' => 'hs_flatlist',
         'info' => 
@@ -4751,7 +5365,11 @@ $options['packages'] = array (
       ),
       'hs_smallhierarchy' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/hierarchical_select/modules/hs_smallhierarchy.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/hierarchical_select/modules/hs_smallhierarchy.module',
+>>>>>>> origin/master
         'basename' => 'hs_smallhierarchy.module',
         'name' => 'hs_smallhierarchy',
         'info' => 
@@ -4775,7 +5393,11 @@ $options['packages'] = array (
       ),
       'hs_taxonomy' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/hierarchical_select/modules/hs_taxonomy.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/hierarchical_select/modules/hs_taxonomy.module',
+>>>>>>> origin/master
         'basename' => 'hs_taxonomy.module',
         'name' => 'hs_taxonomy',
         'info' => 
@@ -4800,7 +5422,11 @@ $options['packages'] = array (
       ),
       'hs_menu' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/hierarchical_select/modules/hs_menu.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/hierarchical_select/modules/hs_menu.module',
+>>>>>>> origin/master
         'basename' => 'hs_menu.module',
         'name' => 'hs_menu',
         'info' => 
@@ -4825,7 +5451,11 @@ $options['packages'] = array (
       ),
       'hs_taxonomy_views' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/hierarchical_select/modules/hs_taxonomy_views.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/hierarchical_select/modules/hs_taxonomy_views.module',
+>>>>>>> origin/master
         'basename' => 'hs_taxonomy_views.module',
         'name' => 'hs_taxonomy_views',
         'info' => 
@@ -4855,7 +5485,11 @@ $options['packages'] = array (
       ),
       'hierarchical_select' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/hierarchical_select/hierarchical_select.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/hierarchical_select/hierarchical_select.module',
+>>>>>>> origin/master
         'basename' => 'hierarchical_select.module',
         'name' => 'hierarchical_select',
         'info' => 
@@ -4882,7 +5516,11 @@ $options['packages'] = array (
       ),
       'entityreference_view_widget' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/entityreference_view_widget/entityreference_view_widget.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/entityreference_view_widget/entityreference_view_widget.module',
+>>>>>>> origin/master
         'basename' => 'entityreference_view_widget.module',
         'name' => 'entityreference_view_widget',
         'info' => 
@@ -4913,7 +5551,11 @@ $options['packages'] = array (
       ),
       'conditional_fields' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/conditional_fields/conditional_fields.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/conditional_fields/conditional_fields.module',
+>>>>>>> origin/master
         'basename' => 'conditional_fields.module',
         'name' => 'conditional_fields',
         'info' => 
@@ -4938,7 +5580,11 @@ $options['packages'] = array (
       ),
       'field_reference' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/field_reference/field_reference.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/field_reference/field_reference.module',
+>>>>>>> origin/master
         'basename' => 'field_reference.module',
         'name' => 'field_reference',
         'info' => 
@@ -4965,7 +5611,11 @@ $options['packages'] = array (
       ),
       'css_injector' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/css_injector/css_injector.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/css_injector/css_injector.module',
+>>>>>>> origin/master
         'basename' => 'css_injector.module',
         'name' => 'css_injector',
         'info' => 
@@ -4995,7 +5645,11 @@ $options['packages'] = array (
       ),
       'wysiwyg' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/wysiwyg/wysiwyg.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/wysiwyg/wysiwyg.module',
+>>>>>>> origin/master
         'basename' => 'wysiwyg.module',
         'name' => 'wysiwyg',
         'info' => 
@@ -5024,7 +5678,11 @@ $options['packages'] = array (
       ),
       'ctools_custom_content' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/ctools/ctools_custom_content/ctools_custom_content.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/ctools/ctools_custom_content/ctools_custom_content.module',
+>>>>>>> origin/master
         'basename' => 'ctools_custom_content.module',
         'name' => 'ctools_custom_content',
         'info' => 
@@ -5048,7 +5706,11 @@ $options['packages'] = array (
       ),
       'stylizer' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/ctools/stylizer/stylizer.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/ctools/stylizer/stylizer.module',
+>>>>>>> origin/master
         'basename' => 'stylizer.module',
         'name' => 'stylizer',
         'info' => 
@@ -5073,7 +5735,11 @@ $options['packages'] = array (
       ),
       'page_manager' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/ctools/page_manager/page_manager.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/ctools/page_manager/page_manager.module',
+>>>>>>> origin/master
         'basename' => 'page_manager.module',
         'name' => 'page_manager',
         'info' => 
@@ -5097,7 +5763,11 @@ $options['packages'] = array (
       ),
       'ctools_ajax_sample' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/ctools/ctools_ajax_sample/ctools_ajax_sample.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/ctools/ctools_ajax_sample/ctools_ajax_sample.module',
+>>>>>>> origin/master
         'basename' => 'ctools_ajax_sample.module',
         'name' => 'ctools_ajax_sample',
         'info' => 
@@ -5121,7 +5791,11 @@ $options['packages'] = array (
       ),
       'bulk_export' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/ctools/bulk_export/bulk_export.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/ctools/bulk_export/bulk_export.module',
+>>>>>>> origin/master
         'basename' => 'bulk_export.module',
         'name' => 'bulk_export',
         'info' => 
@@ -5145,7 +5819,11 @@ $options['packages'] = array (
       ),
       'term_depth' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/ctools/term_depth/term_depth.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/ctools/term_depth/term_depth.module',
+>>>>>>> origin/master
         'basename' => 'term_depth.module',
         'name' => 'term_depth',
         'info' => 
@@ -5169,7 +5847,11 @@ $options['packages'] = array (
       ),
       'ctools_access_ruleset' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/ctools/ctools_access_ruleset/ctools_access_ruleset.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/ctools/ctools_access_ruleset/ctools_access_ruleset.module',
+>>>>>>> origin/master
         'basename' => 'ctools_access_ruleset.module',
         'name' => 'ctools_access_ruleset',
         'info' => 
@@ -5193,7 +5875,11 @@ $options['packages'] = array (
       ),
       'views_content' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/ctools/views_content/views_content.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/ctools/views_content/views_content.module',
+>>>>>>> origin/master
         'basename' => 'views_content.module',
         'name' => 'views_content',
         'info' => 
@@ -5224,7 +5910,11 @@ $options['packages'] = array (
       ),
       'ctools_plugin_example' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/ctools/ctools_plugin_example/ctools_plugin_example.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/ctools/ctools_plugin_example/ctools_plugin_example.module',
+>>>>>>> origin/master
         'basename' => 'ctools_plugin_example.module',
         'name' => 'ctools_plugin_example',
         'info' => 
@@ -5251,7 +5941,11 @@ $options['packages'] = array (
       ),
       'ctools' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/ctools/ctools.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/ctools/ctools.module',
+>>>>>>> origin/master
         'basename' => 'ctools.module',
         'name' => 'ctools',
         'info' => 
@@ -5280,7 +5974,11 @@ $options['packages'] = array (
       ),
       'libraries' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/libraries/libraries.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/libraries/libraries.module',
+>>>>>>> origin/master
         'basename' => 'libraries.module',
         'name' => 'libraries',
         'info' => 
@@ -5307,7 +6005,11 @@ $options['packages'] = array (
       ),
       'viewreference' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/viewreference/viewreference.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/viewreference/viewreference.module',
+>>>>>>> origin/master
         'basename' => 'viewreference.module',
         'name' => 'viewreference',
         'info' => 
@@ -5329,9 +6031,42 @@ $options['packages'] = array (
         'project' => 'viewreference',
         'version' => '7.x-3.4',
       ),
+      'reference_option_limit' => 
+      array (
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/reference_option_limit/reference_option_limit.module',
+        'basename' => 'reference_option_limit.module',
+        'name' => 'reference_option_limit',
+        'info' => 
+        array (
+          'name' => 'Reference option limit',
+          'description' => 'Allows reference fields to have their available options limited by the values of other fields in the current entity.',
+          'core' => '7.x',
+          'dependencies' => 
+          array (
+            0 => 'options',
+          ),
+          'files' => 
+          array (
+            0 => 'reference_option_limit.module',
+            1 => 'reference_option_limit.views.inc',
+            2 => 'reference_option_limit_handler_filter_limited_options_term_reference.inc',
+          ),
+          'version' => '7.x-1.4',
+          'project' => 'reference_option_limit',
+          'datestamp' => '1371751257',
+          'php' => '5.2.4',
+        ),
+        'schema_version' => 0,
+        'project' => 'reference_option_limit',
+        'version' => '7.x-1.4',
+      ),
       'admin_menu_toolbar' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/admin_menu/admin_menu_toolbar/admin_menu_toolbar.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/admin_menu/admin_menu_toolbar/admin_menu_toolbar.module',
+>>>>>>> origin/master
         'basename' => 'admin_menu_toolbar.module',
         'name' => 'admin_menu_toolbar',
         'info' => 
@@ -5355,7 +6090,11 @@ $options['packages'] = array (
       ),
       'admin_devel' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/admin_menu/admin_devel/admin_devel.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/admin_menu/admin_devel/admin_devel.module',
+>>>>>>> origin/master
         'basename' => 'admin_devel.module',
         'name' => 'admin_devel',
         'info' => 
@@ -5382,7 +6121,11 @@ $options['packages'] = array (
       ),
       'admin_menu' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/admin_menu/admin_menu.module',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/admin_menu/admin_menu.module',
+>>>>>>> origin/master
         'basename' => 'admin_menu.module',
         'name' => 'admin_menu',
         'info' => 
@@ -5409,12 +6152,134 @@ $options['packages'] = array (
         'project' => 'admin_menu',
         'version' => '7.x-3.0-rc4',
       ),
+      'data_entity' => 
+      array (
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/data/data_entity/data_entity.module',
+        'basename' => 'data_entity.module',
+        'name' => 'data_entity',
+        'info' => 
+        array (
+          'name' => 'Data entity',
+          'description' => 'Defines data tables as entity types.',
+          'package' => 'Data',
+          'dependencies' => 
+          array (
+            0 => 'data',
+            1 => 'entity',
+            2 => 'data_ui',
+          ),
+          'core' => '7.x',
+          'files' => 
+          array (
+            0 => 'data_entity.module',
+            1 => 'data_entity.pages.inc',
+            2 => 'data_entity.admin.inc',
+            3 => 'data_entity.entity.inc',
+            4 => 'views/data_entity.views.inc',
+            5 => 'views/data_entity_views_handler_field_edit_link.inc',
+          ),
+          'version' => '7.x-1.0-alpha6',
+          'project' => 'data',
+          'datestamp' => '1390746506',
+          'php' => '5.2.4',
+        ),
+        'schema_version' => '7000',
+        'project' => 'data',
+        'version' => '7.x-1.0-alpha6',
+      ),
+      'data_search' => 
+      array (
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/data/data_search/data_search.module',
+        'basename' => 'data_search.module',
+        'name' => 'data_search',
+        'info' => 
+        array (
+          'name' => 'Data Search',
+          'description' => 'Provides search and views search integration for Data tables.',
+          'package' => 'Data',
+          'dependencies' => 
+          array (
+            0 => 'data',
+            1 => 'search',
+          ),
+          'core' => '7.x',
+          'version' => '7.x-1.0-alpha6',
+          'project' => 'data',
+          'datestamp' => '1390746506',
+          'php' => '5.2.4',
+        ),
+        'schema_version' => 0,
+        'project' => 'data',
+        'version' => '7.x-1.0-alpha6',
+      ),
+      'data_ui' => 
+      array (
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/data/data_ui/data_ui.module',
+        'basename' => 'data_ui.module',
+        'name' => 'data_ui',
+        'info' => 
+        array (
+          'name' => 'Data Admin UI',
+          'description' => 'Admin UI for Data Module',
+          'package' => 'Data',
+          'dependencies' => 
+          array (
+            0 => 'data',
+            1 => 'schema',
+          ),
+          'core' => '7.x',
+          'version' => '7.x-1.0-alpha6',
+          'project' => 'data',
+          'datestamp' => '1390746506',
+          'php' => '5.2.4',
+        ),
+        'schema_version' => 0,
+        'project' => 'data',
+        'version' => '7.x-1.0-alpha6',
+      ),
+      'data' => 
+      array (
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/modules/data/data.module',
+        'basename' => 'data.module',
+        'name' => 'data',
+        'info' => 
+        array (
+          'name' => 'Data',
+          'description' => 'Provides two dimensional storage space for arbitrary data sets.',
+          'package' => 'Data',
+          'dependencies' => 
+          array (
+            0 => 'ctools',
+          ),
+          'core' => '7.x',
+          'files' => 
+          array (
+            0 => 'data.module',
+            1 => 'includes/DataHandler.inc',
+            2 => 'includes/DataTable.inc',
+            3 => 'tests/data.test',
+            4 => 'tests/data.test.inc',
+            5 => 'views/views_handler_field_data_markup.inc',
+          ),
+          'version' => '7.x-1.0-alpha6',
+          'project' => 'data',
+          'datestamp' => '1390746506',
+          'php' => '5.2.4',
+        ),
+        'schema_version' => '6002',
+        'project' => 'data',
+        'version' => '7.x-1.0-alpha6',
+      ),
     ),
     'themes' => 
     array (
       'bootstrap' => 
       array (
+<<<<<<< HEAD
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/themes/bootstrap/bootstrap.info',
+=======
+        'filename' => '/var/aegir/projects/ageracom/20141128/sites/all/themes/bootstrap/bootstrap.info',
+>>>>>>> origin/master
         'basename' => 'bootstrap.info',
         'name' => 'Bootstrap',
         'info' => 
