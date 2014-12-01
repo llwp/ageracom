@@ -1,0 +1,50 @@
+.navbar.container {
+background-color: black;
+}
+.navbar-default .navbar-nav>li>a {
+color: #fff;
+text-transform: uppercase;
+font-weight: bolder;
+font-size: 8pt;
+}
+.navbar-default .navbar-nav>li>a:hover {
+color: #A4FEF6;
+font-weight: bold;
+font-size: 8pt;
+}
+.navbar-nav {
+float: right;
+}
+.navbar {
+margin-bottom: -20px;
+}
+.row {
+margin-top: 20px;
+}
+#edit-field-just-message-und-0-value {
+	width: 210px;
+}
+#edit-field-just-phone-und-0-value {
+	width: 210px;
+}
+#edit-field-just-email-und-0-email {
+	width: 210px;
+}
+#edit-field-just-name-und-0-value {
+	width: 210px;
+}
+.om-maximenu-middle {
+position: fixed;
+top: 80px;
+left: 20px;
+max-width: 400px;
+border: solid 5px orangered;
+border-radius: 25px;
+box-shadow: 10px 10px 5px #888888;
+}
+.om-maximenu .om-maximenu-open {
+display: none;
+}
+#edit_field_states_und_chosen {
+    500px;
+}

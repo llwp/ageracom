@@ -1,6 +1,8 @@
 <?php 
+
+
 $options['sites'] = array (
-  0 => '20141128.ageracom.agera.ssny.us',
+  0 => '20141201.ageracom.agera.ssny.us',
 );
 $options['profiles'] = array (
   0 => 'standard',
@@ -248,7 +250,8 @@ $options['packages'] = array (
           'php' => '5.2.4',
         ),
         'schema_version' => 0,
-        'project' => 'drupal',        'version' => '7.34',
+        'project' => 'drupal',
+        'version' => '7.34',
       ),
       'dashboard' => 
       array (
@@ -2184,6 +2187,68 @@ $options['packages'] = array (
         'project' => 'om_maps',
         'version' => '7.x-1.0-beta2',
       ),
+      'views_slideshow_cycle' => 
+      array (
+        'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/views_slideshow_cycle.module',
+        'basename' => 'views_slideshow_cycle.module',
+        'name' => 'views_slideshow_cycle',
+        'info' => 
+        array (
+          'name' => 'Views Slideshow: Cycle',
+          'description' => 'Adds a Rotating slideshow mode to Views Slideshow.',
+          'dependencies' => 
+          array (
+            0 => 'views_slideshow',
+            1 => 'libraries',
+          ),
+          'package' => 'Views',
+          'core' => '7.x',
+          'files' => 
+          array (
+            0 => 'views_slideshow_cycle.module',
+            1 => 'views_slideshow_cycle.views_slideshow.inc',
+            2 => 'theme/views_slideshow_cycle.theme.inc',
+          ),
+          'version' => '7.x-3.1',
+          'project' => 'views_slideshow',
+          'datestamp' => '1382584826',
+          'php' => '5.2.4',
+        ),
+        'schema_version' => 0,
+        'project' => 'views_slideshow',
+        'version' => '7.x-3.1',
+      ),
+      'views_slideshow' => 
+      array (
+        'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/views_slideshow/views_slideshow.module',
+        'basename' => 'views_slideshow.module',
+        'name' => 'views_slideshow',
+        'info' => 
+        array (
+          'name' => 'Views Slideshow',
+          'description' => 'Provides a View style that displays rows as a jQuery slideshow.  This is an API and requires Views Slideshow Cycle or another module that supports the API.',
+          'dependencies' => 
+          array (
+            0 => 'views (>=3.0)',
+          ),
+          'package' => 'Views',
+          'core' => '7.x',
+          'files' => 
+          array (
+            0 => 'views_slideshow.module',
+            1 => 'theme/views_slideshow.theme.inc',
+            2 => 'views_slideshow.views.inc',
+            3 => 'views_slideshow_plugin_style_slideshow.inc',
+          ),
+          'version' => '7.x-3.1',
+          'project' => 'views_slideshow',
+          'datestamp' => '1382584826',
+          'php' => '5.2.4',
+        ),
+        'schema_version' => 0,
+        'project' => 'views_slideshow',
+        'version' => '7.x-3.1',
+      ),
       'aes' => 
       array (
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/aes/aes.module',
@@ -3597,6 +3662,54 @@ $options['packages'] = array (
         'project' => 'views',
         'version' => '7.x-3.8',
       ),
+      'textformatter_contrib' => 
+      array (
+        'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/textformatter/textformatter_contrib/textformatter_contrib.module',
+        'basename' => 'textformatter_contrib.module',
+        'name' => 'textformatter_contrib',
+        'info' => 
+        array (
+          'name' => 'Text formatter contrib',
+          'description' => 'Textformatter support for contributed modules.',
+          'core' => '7.x',
+          'package' => 'Fields',
+          'dependencies' => 
+          array (
+            0 => 'textformatter',
+          ),
+          'version' => '7.x-1.3',
+          'project' => 'textformatter',
+          'datestamp' => '1339240633',
+          'php' => '5.2.4',
+        ),
+        'schema_version' => 0,
+        'project' => 'textformatter',
+        'version' => '7.x-1.3',
+      ),
+      'textformatter' => 
+      array (
+        'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/textformatter/textformatter.module',
+        'basename' => 'textformatter.module',
+        'name' => 'textformatter',
+        'info' => 
+        array (
+          'name' => 'Text formatter',
+          'description' => 'A field formatter for rendering values as HTML or comma-separated lists.',
+          'core' => '7.x',
+          'package' => 'Fields',
+          'dependencies' => 
+          array (
+            0 => 'field',
+          ),
+          'version' => '7.x-1.3',
+          'project' => 'textformatter',
+          'datestamp' => '1339240633',
+          'php' => '5.2.4',
+        ),
+        'schema_version' => 0,
+        'project' => 'textformatter',
+        'version' => '7.x-1.3',
+      ),
       'entity' => 
       array (
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/entity/entity.module',
@@ -4146,7 +4259,7 @@ $options['packages'] = array (
       ),
       'schema' => 
       array (
-
+        'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/schema/schema.module',
         'basename' => 'schema.module',
         'name' => 'schema',
         'info' => 
@@ -4422,6 +4535,59 @@ $options['packages'] = array (
         'schema_version' => '7101',
         'project' => 'synonyms',
         'version' => '7.x-1.2',
+      ),
+      'field_conditional_state' => 
+      array (
+        'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/field_conditional_state/field_conditional_state.module',
+        'basename' => 'field_conditional_state.module',
+        'name' => 'field_conditional_state',
+        'info' => 
+        array (
+          'name' => 'Field Conditional State',
+          'description' => 'Set form field states attributes based on the values selected in other form fields using Drupal\'s states API',
+          'core' => '7.x',
+          'package' => 'Fields',
+          'dependencies' => 
+          array (
+            0 => 'field',
+            1 => 'system (>=7.14)',
+          ),
+          'files' => 
+          array (
+            0 => 'field_conditional_state.test',
+          ),
+          'version' => '7.x-2.1',
+          'project' => 'field_conditional_state',
+          'datestamp' => '1412096533',
+          'php' => '5.2.4',
+        ),
+        'schema_version' => '7202',
+        'project' => 'field_conditional_state',
+        'version' => '7.x-2.1',
+      ),
+      'jqmulti' => 
+      array (
+        'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/jqmulti/jqmulti.module',
+        'basename' => 'jqmulti.module',
+        'name' => 'jqmulti',
+        'info' => 
+        array (
+          'name' => 'jQuery Multi',
+          'description' => 'Runs a second version of jQuery in parallel to Drupal\'s version, and allows for targeting of files and libraries to the second version.',
+          'core' => '7.x',
+          'configure' => 'admin/config/system/jqmulti',
+          'dependencies' => 
+          array (
+            0 => 'libraries',
+          ),
+          'version' => '7.x-1.0',
+          'project' => 'jqmulti',
+          'datestamp' => '1382928333',
+          'php' => '5.2.4',
+        ),
+        'schema_version' => '7102',
+        'project' => 'jqmulti',
+        'version' => '7.x-1.0',
       ),
       'pathauto' => 
       array (
@@ -4964,9 +5130,37 @@ $options['packages'] = array (
         'project' => 'conditional_fields',
         'version' => '7.x-3.0-alpha1',
       ),
+      'email' => 
+      array (
+        'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/email/email.module',
+        'basename' => 'email.module',
+        'name' => 'email',
+        'info' => 
+        array (
+          'name' => 'Email',
+          'description' => 'Defines an email field type.',
+          'core' => '7.x',
+          'package' => 'Fields',
+          'files' => 
+          array (
+            0 => 'email.migrate.inc',
+          ),
+          'version' => '7.x-1.3',
+          'project' => 'email',
+          'datestamp' => '1397134155',
+          'dependencies' => 
+          array (
+          ),
+          'php' => '5.2.4',
+        ),
+        'schema_version' => 0,
+        'project' => 'email',
+        'version' => '7.x-1.3',
+      ),
       'field_reference' => 
       array (
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/field_reference/field_reference.module',
+        'basename' => 'field_reference.module',
         'name' => 'field_reference',
         'info' => 
         array (
@@ -4990,9 +5184,41 @@ $options['packages'] = array (
         'project' => 'field_reference',
         'version' => '7.x-1.0',
       ),
+      'views_slideshow_liquid_slider' => 
+      array (
+        'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/views_slideshow_liquid_slider/views_slideshow_liquid_slider.module',
+        'basename' => 'views_slideshow_liquid_slider.module',
+        'name' => 'views_slideshow_liquid_slider',
+        'info' => 
+        array (
+          'name' => 'Views Slideshow: Liquid Slider',
+          'description' => 'Adds a jQuery Liquid Slider option to views slideshow',
+          'dependencies' => 
+          array (
+            0 => 'views',
+            1 => 'views_slideshow',
+            2 => 'jqmulti',
+            3 => 'libraries (2.x)',
+          ),
+          'scripts' => 
+          array (
+            0 => 'js/liquidslider.js',
+          ),
+          'package' => 'Views',
+          'core' => '7.x',
+          'version' => '7.x-1.0',
+          'project' => 'views_slideshow_liquid_slider',
+          'datestamp' => '1402918431',
+          'php' => '5.2.4',
+        ),
+        'schema_version' => 0,
+        'project' => 'views_slideshow_liquid_slider',
+        'version' => '7.x-1.0',
+      ),
       'css_injector' => 
       array (
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/css_injector/css_injector.module',
+        'basename' => 'css_injector.module',
         'name' => 'css_injector',
         'info' => 
         array (
@@ -5357,7 +5583,7 @@ $options['packages'] = array (
       ),
       'reference_option_limit' => 
       array (
-
+        'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/reference_option_limit/reference_option_limit.module',
         'basename' => 'reference_option_limit.module',
         'name' => 'reference_option_limit',
         'info' => 
@@ -5383,6 +5609,37 @@ $options['packages'] = array (
         'schema_version' => 0,
         'project' => 'reference_option_limit',
         'version' => '7.x-1.4',
+      ),
+      'om_tools' => 
+      array (
+        'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/om_tools/om_tools.module',
+        'basename' => 'om_tools.module',
+        'name' => 'om_tools',
+        'info' => 
+        array (
+          'name' => 'OM Tools',
+          'package' => 'OM',
+          'description' => 'OM Base Theme Tools Collection',
+          'core' => '7.x',
+          'files' => 
+          array (
+            0 => 'om_tools.module',
+            1 => 'om_tools.install',
+            2 => 'inc/om_tools.admin.inc',
+            3 => 'inc/om_tools.utils.inc',
+          ),
+          'configure' => 'admin/config/system/om-tools',
+          'version' => '7.x-2.13',
+          'project' => 'om_tools',
+          'datestamp' => '1325989248',
+          'dependencies' => 
+          array (
+          ),
+          'php' => '5.2.4',
+        ),
+        'schema_version' => 0,
+        'project' => 'om_tools',
+        'version' => '7.x-2.13',
       ),
       'admin_menu_toolbar' => 
       array (
@@ -5466,7 +5723,7 @@ $options['packages'] = array (
       ),
       'data_entity' => 
       array (
-
+        'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/data/data_entity/data_entity.module',
         'basename' => 'data_entity.module',
         'name' => 'data_entity',
         'info' => 
@@ -5501,7 +5758,7 @@ $options['packages'] = array (
       ),
       'data_search' => 
       array (
-
+        'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/data/data_search/data_search.module',
         'basename' => 'data_search.module',
         'name' => 'data_search',
         'info' => 
@@ -5526,7 +5783,7 @@ $options['packages'] = array (
       ),
       'data_ui' => 
       array (
-
+        'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/data/data_ui/data_ui.module',
         'basename' => 'data_ui.module',
         'name' => 'data_ui',
         'info' => 
@@ -5551,7 +5808,7 @@ $options['packages'] = array (
       ),
       'data' => 
       array (
-
+        'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/data/data.module',
         'basename' => 'data.module',
         'name' => 'data',
         'info' => 
@@ -5585,6 +5842,303 @@ $options['packages'] = array (
     ),
     'themes' => 
     array (
+      'om_subtheme' => 
+      array (
+        'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/themes/om/om_subtheme/om_subtheme.info',
+        'basename' => 'om_subtheme.info',
+        'name' => 'OM Subtheme - Created by Admin',
+        'info' => 
+        array (
+          'name' => 'OM Subtheme - Created by Admin',
+          'description' => '"This a subtheme of OM Base Theme. For more info, read the <a href="http://drupal.org/node/1056254">OM Theme Documentation</a>"',
+          'screenshot' => 'screenshot.png',
+          'base theme' => 'om',
+          'core' => '7.x',
+          'engine' => 'phptemplate',
+          'head' => 
+          array (
+            'meta' => 
+            array (
+              'viewport' => 
+              array (
+                'initial-scale' => '1.0',
+                'width' => 'device-width',
+                'minimum-scale' => '0.5',
+                'maximum-scale' => '1.0',
+                'user-scalable' => 'yes',
+              ),
+              'MobileOptimized' => 'width',
+              'HandheldFriendly' => 'true',
+              'apple-mobile-web-app-capable' => 'yes',
+              'cleartype' => 'on',
+              'X-UA-Compatible' => 
+              array (
+                'IE' => 'edge',
+                'chrome' => '1',
+              ),
+            ),
+          ),
+          'settings' => 
+          array (
+            'grid_guide' => 'on',
+            'offline' => 
+            array (
+              'switch' => 'off',
+              'message' => 'We\'re currently improving this site.',
+            ),
+            'countdown' => 
+            array (
+              'year' => '2012',
+              'month' => '1',
+              'days' => '1',
+              'hours' => '0',
+              'minutes' => '0',
+              'seconds' => '0',
+            ),
+            'browsers' => 
+            array (
+              'known' => 'msie, firefox, safari, webkit, opera, netscape, konqueror, gecko',
+              'class' => 'off',
+            ),
+          ),
+          'stylesheets' => 
+          array (
+            'all' => 
+            array (
+              0 => 'css/style.css',
+            ),
+          ),
+          'scripts' => 
+          array (
+            0 => 'js/script.js',
+          ),
+          'regions' => 
+          array (
+            'header_block' => 'Header Block',
+            'menu_bar' => 'Menu Bar',
+            'highlighted' => 'Highlighted',
+            'sidebar_first' => 'Sidebar - First (Left)',
+            'sidebar_second' => 'Sidebar - Second (Right)',
+            'content' => 'Content',
+            'footer' => 'Footer',
+          ),
+          'version' => '7.x-2.21',
+          'project' => 'om',
+          'datestamp' => '1326183046',
+        ),
+        'project' => 'om',
+        'version' => '7.x-2.21',
+      ),
+      'om' => 
+      array (
+        'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/themes/om/core/om.info',
+        'basename' => 'om.info',
+        'name' => 'OM Base Theme',
+        'info' => 
+        array (
+          'name' => 'OM Base Theme',
+          'description' => '"For more info, read the <a href="http://drupal.org/node/1290584">OM Theme Documentation</a>"',
+          'screenshot' => 'screenshot.png',
+          'core' => '7.x',
+          'engine' => 'phptemplate',
+          'head' => 
+          array (
+            'meta' => 
+            array (
+              'viewport' => 
+              array (
+                'initial-scale' => '1.0',
+                'width' => 'device-width',
+                'minimum-scale' => '0.5',
+                'maximum-scale' => '1.0',
+                'user-scalable' => 'yes',
+              ),
+              'MobileOptimized' => 'width',
+              'HandheldFriendly' => 'true',
+              'apple-mobile-web-app-capable' => 'yes',
+              'cleartype' => 'on',
+              'X-UA-Compatible' => 
+              array (
+                'IE' => 'edge',
+                'chrome' => '1',
+              ),
+            ),
+          ),
+          'settings' => 
+          array (
+            'grid_guide' => 'on',
+            'offline' => 
+            array (
+              'switch' => 'off',
+              'message' => 'We\'re currently improving this site.',
+            ),
+            'countdown' => 
+            array (
+              'year' => '2012',
+              'month' => '1',
+              'days' => '1',
+              'hours' => '0',
+              'minutes' => '0',
+              'seconds' => '0',
+            ),
+            'browsers' => 
+            array (
+              'known' => 'msie, firefox, safari, webkit, opera, netscape, konqueror, gecko',
+              'class' => 'off',
+            ),
+          ),
+          'stylesheets' => 
+          array (
+            'all' => 
+            array (
+              0 => 'css/reset.css',
+              1 => 'css/om.css',
+            ),
+          ),
+          'scripts' => 
+          array (
+            0 => 'js/om.js',
+          ),
+          'regions' => 
+          array (
+            'header_block' => 'Header Block',
+            'menu_bar' => 'Menu Bar',
+            'highlighted' => 'Highlighted',
+            'sidebar_first' => 'Sidebar - First (Left)',
+            'sidebar_second' => 'Sidebar - Second (Right)',
+            'content' => 'Content',
+            'footer' => 'Footer',
+          ),
+          'version' => '7.x-2.21',
+          'project' => 'om',
+          'datestamp' => '1326183046',
+        ),
+        'project' => 'om',
+        'version' => '7.x-2.21',
+      ),
+      'om_html5_subtheme' => 
+      array (
+        'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/themes/om/om_html5_subtheme/om_html5_subtheme.info',
+        'basename' => 'om_html5_subtheme.info',
+        'name' => 'OM HTML5 Subtheme - Created by Admin',
+        'info' => 
+        array (
+          'name' => 'OM HTML5 Subtheme - Created by Admin',
+          'description' => '"This a subtheme of OM Base Theme. For more info, read the <a href="http://drupal.org/node/1056254">OM Theme Documentation</a>"',
+          'screenshot' => 'screenshot.png',
+          'base theme' => 'om',
+          'core' => '7.x',
+          'engine' => 'phptemplate',
+          'head' => 
+          array (
+            'meta' => 
+            array (
+              'viewport' => 
+              array (
+                'initial-scale' => '1.0',
+                'width' => 'device-width',
+                'minimum-scale' => '0.5',
+                'maximum-scale' => '1.0',
+                'user-scalable' => 'yes',
+              ),
+              'MobileOptimized' => 'width',
+              'HandheldFriendly' => 'true',
+              'apple-mobile-web-app-capable' => 'yes',
+              'cleartype' => 'on',
+              'X-UA-Compatible' => 
+              array (
+                'IE' => 'edge',
+                'chrome' => '1',
+              ),
+            ),
+          ),
+          'settings' => 
+          array (
+            'grid_guide' => 'on',
+            'offline' => 
+            array (
+              'switch' => 'off',
+              'message' => 'We\'re currently improving this site.',
+            ),
+            'countdown' => 
+            array (
+              'year' => '2012',
+              'month' => '1',
+              'days' => '1',
+              'hours' => '0',
+              'minutes' => '0',
+              'seconds' => '0',
+            ),
+            'browsers' => 
+            array (
+              'known' => 'msie, firefox, safari, webkit, opera, netscape, konqueror, gecko',
+              'class' => 'off',
+            ),
+          ),
+          'stylesheets' => 
+          array (
+            'all' => 
+            array (
+              0 => 'css/style.css',
+            ),
+          ),
+          'scripts' => 
+          array (
+            0 => 'js/script.js',
+          ),
+          'regions' => 
+          array (
+            'header_block' => 'Header Block',
+            'menu_bar' => 'Menu Bar',
+            'highlighted' => 'Highlighted',
+            'sidebar_first' => 'Sidebar - First (Left)',
+            'sidebar_second' => 'Sidebar - Second (Right)',
+            'content' => 'Content',
+            'footer' => 'Footer',
+          ),
+          'version' => '7.x-2.21',
+          'project' => 'om',
+          'datestamp' => '1326183046',
+        ),
+        'project' => 'om',
+        'version' => '7.x-2.21',
+      ),
+      'agerametro' => 
+      array (
+        'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/themes/bootstrap/agerametro/agerametro.info',
+        'basename' => 'agerametro.info',
+        'name' => 'Agera Energy LLC "Metro" Theme',
+        'info' => 
+        array (
+          'name' => 'Agera Energy LLC "Metro" Theme',
+          'description' => 'This is a Bootstrap Sub-theme created for Agera Energy LLC by Adam John. <a href="mailto:aj@sterlingsolved.com">aj@sterlingsolved.com</a>',
+          'core' => '7.x',
+          'base theme' => 'bootstrap',
+          'regions' => 
+          array (
+            'navigation' => 'Navigation',
+            'header' => 'Top Bar',
+            'highlighted' => 'Highlighted',
+            'help' => 'Help',
+            'content' => 'Content',
+            'sidebar_first' => 'Primary',
+            'sidebar_second' => 'Secondary',
+            'footer' => 'Footer',
+            'page_top' => 'Page top',
+            'page_bottom' => 'Page bottom',
+          ),
+          'stylesheets' => 
+          array (
+            'all' => 
+            array (
+              0 => 'css/style.css',
+            ),
+          ),
+          'version' => NULL,
+        ),
+        'project' => '',
+        'version' => NULL,
+      ),
       'bootstrap' => 
       array (
         'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/themes/bootstrap/bootstrap.info',
