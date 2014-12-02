@@ -1,0 +1,4 @@
+name = Agera Energy Online tweaks module
+description = Customization
+package = "Customization"
+core = 7.x

@@ -1,0 +1,11 @@
+<?php
+//
+function ageracomtweaks_xxx_form_alter(&$form, &$form_state, $form_id) {
+  $thisform = 'customer_service';
+  $form_state = '';
+  honeypot_add_form_protection($thisform, $form_state, array('honeypot', 'time_restriction'));
+  $thisform = 'contact_information';
+  $form_state = '';
+  honeypot_add_form_protection($thisform, $form_state, array('honeypot', 'time_restriction'));
+}
+?>

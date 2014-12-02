@@ -3,6 +3,7 @@
 
 $options['sites'] = array (
   0 => '20141201.ageracom.agera.ssny.us',
+  1 => 'dev.ageracom.agera.ssny.us',
 );
 $options['profiles'] = array (
   0 => 'standard',
@@ -2092,6 +2093,75 @@ $options['packages'] = array (
         'schema_version' => 0,
         'project' => 'recaptcha',
         'version' => '7.x-1.11',
+      ),
+      'ageracomtweaks' => 
+      array (
+        'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/ageracomtweaks/ageracomtweaks.module',
+        'basename' => 'ageracomtweaks.module',
+        'name' => 'ageracomtweaks',
+        'info' => 
+        array (
+          'name' => 'Agera Energy Online tweaks module',
+          'description' => 'Customization',
+          'package' => 'Customization',
+          'core' => '7.x',
+          'dependencies' => 
+          array (
+          ),
+          'version' => NULL,
+          'php' => '5.2.4',
+        ),
+        'schema_version' => 0,
+        'project' => '',
+        'version' => NULL,
+      ),
+      'simple_dialog_example' => 
+      array (
+        'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/simple_dialog/simple_dialog_example/simple_dialog_example.module',
+        'basename' => 'simple_dialog_example.module',
+        'name' => 'simple_dialog_example',
+        'info' => 
+        array (
+          'name' => 'Simple Dialog Example',
+          'description' => 'Examples of implementations of the simple dialog module',
+          'version' => '7.x-1.10',
+          'core' => '7.x',
+          'package' => 'Example modules',
+          'dependencies' => 
+          array (
+            0 => 'simple_dialog',
+          ),
+          'project' => 'simple_dialog',
+          'datestamp' => '1382640926',
+          'php' => '5.2.4',
+        ),
+        'schema_version' => 0,
+        'project' => 'simple_dialog',
+        'version' => '7.x-1.10',
+      ),
+      'simple_dialog' => 
+      array (
+        'filename' => '/var/aegir/projects/ageracom/20141201/sites/all/modules/simple_dialog/simple_dialog.module',
+        'basename' => 'simple_dialog.module',
+        'name' => 'simple_dialog',
+        'info' => 
+        array (
+          'name' => 'Simple Dialog',
+          'description' => 'Provides an API to create simple modal dialogs. Leverages the jQuery ui dialog plugin included with Drupal 7.',
+          'version' => '7.x-1.10',
+          'core' => '7.x',
+          'project' => 'simple_dialog',
+          'package' => 'User interface',
+          'configure' => 'admin/config/content/simple-dialog',
+          'datestamp' => '1382640926',
+          'dependencies' => 
+          array (
+          ),
+          'php' => '5.2.4',
+        ),
+        'schema_version' => 0,
+        'project' => 'simple_dialog',
+        'version' => '7.x-1.10',
       ),
       'googleanalytics' => 
       array (
@@ -6111,7 +6181,7 @@ $options['packages'] = array (
         'info' => 
         array (
           'name' => 'Agera Energy LLC "Metro" Theme',
-          'description' => 'This is a Bootstrap Sub-theme created for Agera Energy LLC by Adam John. <a href="mailto:aj@sterlingsolved.com">aj@sterlingsolved.com</a>',
+          'description' => 'This is a Bootstrap Sub-theme created for Agera Energy LLC by <a href="http://mradamjohn.com">Adam John</a>. <a href="mailto:aj@sterlingsolved.com">aj@sterlingsolved.com</a>',
           'core' => '7.x',
           'base theme' => 'bootstrap',
           'regions' => 

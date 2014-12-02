@@ -8,7 +8,7 @@ font-weight: bolder;
 font-size: 8pt;
 }
 .navbar-default .navbar-nav>li>a:hover {
-color: #A4FEF6;
+color: orange;
 font-weight: bold;
 font-size: 8pt;
 }
@@ -16,7 +16,7 @@ font-size: 8pt;
 float: right;
 }
 .navbar {
-margin-bottom: -20px;
+margin-bottom: 0px;
 }
 .row {
 margin-top: 20px;
@@ -33,18 +33,59 @@ margin-top: 20px;
 #edit-field-just-name-und-0-value {
 	width: 210px;
 }
-.om-maximenu-middle {
-position: fixed;
-top: 80px;
-left: 20px;
-max-width: 400px;
-border: solid 5px orangered;
-border-radius: 25px;
-box-shadow: 10px 10px 5px #888888;
-}
-.om-maximenu .om-maximenu-open {
-display: none;
-}
 #edit_field_states_und_chosen {
     500px;
+}
+#floatingbocks {
+    position: relative;
+    top: -265px;
+    left: 115px;
+    background-color: black;
+    width: 300px;
+    min-height: 200px;
+    padding: 20px;
+    border: 4px black solid;
+    clear:both;
+}
+#floatingbocks .field-content {
+    color: white;
+}
+#floatingbocks .views-field-title {
+    font-size: 18pt;
+    font-color: white;
+    font-weight: bold;
+}
+#floatingbocks .views-field-title a {
+    font-size: 18pt;
+    color: white;
+    text-decoration:none;
+}
+#floatingbocks .views-field-title a:hover {
+    font-size: 18pt;
+    color: orange;
+    text-decoration:none;
+}
+#floatingbocks .views-field-body {
+    line-height:1.2em;
+    font-weight: normal;
+    font-size:12pt
+}
+#floatingbocks .views-field-view-node a {
+    color: orangered;
+    text-decoration:none;
+    float:right;
+    font-weight: bold;
+    font-size:14pt
+}
+#floatingbocks .views-field-view-node a:hover {
+    color: orange;
+    font-size:14pt
+}
+.views-field-field-background-image img {
+    max-width: 100%;
+    height: 300px;
+}
+.ui-dialog-titlebar-close {
+  background-position:-96px -129px;
+  background-image: url('/sites/all/themes/bootstrap/agerametro/images/ui-icons_888888_256x240.png');
 }
